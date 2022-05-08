@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* Caveatフォントのインポート */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+	margin-top:10vh;
+	margin-bottom:20vh;
+	background:url("img/honey.jpg");
+	background-size: cover;
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-weight:bold;
+}
+button{
+	padding:0.8vh 3vh;
+	border-radius:1vh;
+	font-size:1.1em;
+}
+.nico{
+	font-family: "Nico Moji";
+}
+.han{
+	font-family: "Hannari";
+}
+.t_main{
+	height:10%;
+	font-size:5em;
+}
+.t_Ox{
+	font-family: "Hannari";
+}
+.Ox_table{
+	width: 419px;
+	height: 419px;
+	border-width:10px;
+	border-collapse: collapse;  /*隣接するセルの罫線を重ねて表示する */
+}
+.Ox_table,.Ox_td{
+	border-width:10;
+	border-image:url("/MyPortFolio/img/R.jpg");
+	border-collapse: collapse;
+}
+.Ox_td{
+	margin:none;
+	padding:none;
+	width:133px;
+	height:133px;
+
+}
+
+.td_img{
+	border-radius:50%;
+	height:95%;
+	width:95%;
+}
+.kira{
+	font-size:3em;
+	color: #DA8E00;
+	background: -webkit-linear-gradient(-45deg, #F7DE05, #DA8E00, #EDAC06, #F7DE05, #ECB802, #DAAF08, #B67B03, #DA8E00, #EDAC06, #F7DE05, #ECB802, #EDAC06);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.souko{
+  font-family: "Nikukyu";
+  font-family: 'Caveat', cursive;
+  font-family: "Hannari";
+  font-family: "Nico Moji";
+}
